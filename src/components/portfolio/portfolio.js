@@ -1,6 +1,6 @@
 import DevelopersPage from "./developersPage";
 
-export default function portfolio(){
+export default function Portfolio(){
     return(
         <div className="h-full w-full bg-red-600 flex flex-col">
             

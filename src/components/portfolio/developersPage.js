@@ -3,7 +3,7 @@ import FadeIn from "react-fade-in/lib/FadeIn";
 
 export default function developersPage(){
     return(
-        <div className="bg-blue-900 h-full w-full flex flex-col md:flex-row">
+        <div style={{ fontFamily: "Roboto Mono" }} className="bg-blue-900 h-full w-full flex flex-col md:flex-row">
 
             <div className="bg-white w-full md:w-2/4 h-screen  md:h-screen gap-5 flex justify-evenly items-center flex-col">
                 
@@ -15,11 +15,11 @@ export default function developersPage(){
                 <div className="flex flex-row justify-evenly w-full"> 
 
                     <FadeIn transitionDuration={1200}>
-                        <Person name="Zaid Saeed" img="https://avatars.githubusercontent.com/u/47746351?v=4" info="Mobile App Developer" />
+                        <Person name="Zaid Saeed" img="https://avatars.githubusercontent.com/u/47746351?v=4" info1="Mobile App Developer," info2="Blockchain Expert" />
                     </FadeIn>
 
                     <FadeIn transitionDuration={1700}>
-                        <Person name="Hamza Hassan" img="https://media-exp1.licdn.com/dms/image/C4D03AQFCL1xf47OS4g/profile-displayphoto-shrink_800_800/0/1605240476856?e=1646265600&v=beta&t=1kAuixXAcwXwCKA6Bgg2saNW9JbxDoVtyvGZrA3glhw" info="Web App Developer" />
+                        <Person name="Hamza Hassan" img="https://media-exp1.licdn.com/dms/image/C4D03AQFCL1xf47OS4g/profile-displayphoto-shrink_800_800/0/1605240476856?e=1646265600&v=beta&t=1kAuixXAcwXwCKA6Bgg2saNW9JbxDoVtyvGZrA3glhw" info1="Web App Developer," info2="UI/UX Designer" />
                     </FadeIn>
 
 

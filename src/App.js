@@ -1,13 +1,17 @@
-import Page1 from "./components/page1";
-import Page2 from "./components/page2";
-import Page3 from "./components/page3";
+import { Route, Routes } from "react-router-dom";
+import Contact from "./components/contact";
+import Portfolio from "./components/portfolio/portfolio";
+import Navigation from "./Navigation";
 
-export default function Home(){
+
+export default function App(){
   return(
-    <div className="bg-red-500 h-full text-white flex flex-col justify-center items-center ">
-        <Page1/>
-        <Page2/>
-        <Page3/>
+    <div>
+      <Routes>
+        <Route path="/" element={<Navigation/>} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/portfolio" element={<Portfolio/>} />
+      </Routes>
     </div>
     )
 }

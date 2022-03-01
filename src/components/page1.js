@@ -1,8 +1,12 @@
+import { AnimatePresence, motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import FadeIn from 'react-fade-in';
+import { Link } from "react-router-dom";
 import { useSpring, animated, useTransition } from 'react-spring'
 
 var texts = [
+    "Mobile",
+    "Web",
     "Beautiful",
     "Stunning",
     "Elegant",
@@ -21,17 +25,30 @@ export default function Page1() {
 
     const [index, setIndex] = useState(100);
     const [currentValue, setCurrentValue] = useState(0);
-    const [hide,setHide]=useState(false);
+    const [hide, setHide] = useState(false);
     const props = useSpring({ to: { x: 0, y: 0 }, from: { x: 500, y: 200 }, });
 
 
-    
 
-    useEffect(async() => { 
+
+    useEffect(async () => {
         console.log('running one time');
-        await setTimeout(()=>{
-            if(hide===true){setHide(false)}else{setHide(true)}
-        },3000); 
+        await setTimeout(() => {
+            if (hide === true) {
+                setHide(false)
+            }
+            else {
+                setHide(true)
+            }
+
+            if (currentValue < texts.length) {
+                setCurrentValue(currentValue + 1);
+            }
+            else {
+                setCurrentValue(0);
+            }
+
+        }, 3000);
     }, [hide]);
 
 
@@ -59,15 +76,12 @@ export default function Page1() {
 
                         <animated.div style={props}>
                             <FadeIn transitionDuration={2000}>
-                                <button onClick={
-
-                                    () => {
-
-                                    }
-
-                                } className=" text-xl ml-1 mt-4 p-2 rounded-sm bg-white text-red-900 hover:scale-105 ">
-                                    Let's Talk ►
-                                </button>
+                                <Link to="/contact">
+                                    <button
+                                        className=" text-xl ml-1 mt-4 p-2 rounded-sm bg-white text-red-900 hover:scale-105 ">
+                                        Let's Talk ►
+                                    </button>
+                                </Link>
                             </FadeIn>
                         </animated.div>
 
@@ -93,12 +107,23 @@ export default function Page1() {
                         We build
                     </div>
 
-                    {
-                        hide==true?"":
-                        <div className="text-3xl italic font-normal text-[#084594]">
-                            {texts[currentValue]}
-                        </div>
-                    }
+                    <AnimatePresence>
+                        {
+                            hide == true ?
+                                <div
+                                    className="text-3xl italic font-normal text-[#084594]">
+                                    $^**()???
+                                </div>
+                                :
+                                <motion.div
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    exit={{ opacity: 1 }}
+                                    className="text-3xl italic font-normal text-[#084594]">
+                                    {texts[currentValue]}
+                                </motion.div>
+                        }
+                    </AnimatePresence>
 
                     <div className="text-2xl italic font-normal text-[#084594]">
                         Apps.

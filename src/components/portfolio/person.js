@@ -16,7 +16,8 @@ export default function Person(props){
             </div>
 
             <div className="md:w-64 w-36 flex justify-center items-center text-center p-1 w-full border-2 border-black/50 rounded-b-sm ">
-                {props.info}
+                {props.info1}<br/>
+                {props.info2}
             </div>
 
 

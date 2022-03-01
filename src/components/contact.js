@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function contact(){
+export default function Contact(){
 
     var [name,setName]=useState("");
     var [email,setEmail]=useState("");
@@ -10,7 +10,7 @@ export default function contact(){
     var popup="";
 
 
-    if(show==true){
+    if(show===true){
         popup=<div className="bg-black/30 backdrop-blur-md h-screen w-full z-10 absolute flex justify-center items-center">
         <div className="p-10 text-center bg-white rounded-md h-3/4 w-3/4 flex justify-center items-center text-4xl font-bold flex-col">
             

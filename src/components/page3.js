@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 export default function Page3(){
@@ -11,11 +12,11 @@ export default function Page3(){
                 Portfolio
             </div>
 
-            <button onClick={()=>{
-
-            }} className="border-2 border-black hover:scale-105 text-xl p-3 bg-white rounded-sm text-gray-900">
-                Get to Know Us.
-            </button>
+            <Link to="/portfolio">
+                <button className="border-2 border-black hover:scale-105 text-xl italic p-3 bg-white rounded-sm text-gray-900">
+                    Get to Know Us.
+                </button>
+            </Link>
 
         </div>
     );

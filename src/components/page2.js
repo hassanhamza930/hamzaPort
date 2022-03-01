@@ -1,6 +1,6 @@
 import Typewriter from "typewriter-effect";
 import FadeIn from "react-fade-in/lib/FadeIn";
-const texts = ['Mobile Apps', 'Web Apps', "Flutter", "Firebase", "React Js"];
+const texts = ['Mobile Apps', 'Web Apps', "UI / UX", "Flutter", "Firebase", "React Js"];
 
 
 
