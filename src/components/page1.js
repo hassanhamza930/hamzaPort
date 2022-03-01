@@ -8,8 +8,7 @@ var texts = [
     "Mobile",
     "Web",
     "Beautiful",
-    "Stunning",
-    "Elegant",
+    "Winning",
     "Awesome"
 ];
 
@@ -48,7 +47,7 @@ export default function Page1() {
                 setCurrentValue(0);
             }
 
-        }, 3000);
+        }, 2000);
     }, [hide]);
 
 
@@ -64,7 +63,7 @@ export default function Page1() {
 
                         <div className="text-4xl md:text-6xl  font-bold text-left text-white p-1 rounded">
                             <FadeIn transitionDuration={1000}>
-                                Colon:Dev
+                                :Dev
                             </FadeIn>
                         </div>
 
