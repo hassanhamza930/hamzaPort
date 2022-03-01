@@ -38,7 +38,7 @@ export default function Contact(){
 
 
     return(
-        <div className="h-screen w-screen static">
+        <div style={{ fontFamily: "Roboto Mono" }} className="h-screen w-screen static">
             
             <div className="absolute z-0 h-screen w-full flex justify-center items-center bg-contact bg-center bg-cover">
     
