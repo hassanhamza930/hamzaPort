@@ -15,7 +15,7 @@ export default function Page2() {
     return (
         <div className="flex flex-row w-full h-screen bg-services bg-center bg-cover">
 
-            <div className="bg-gradient-to-br from-[#084594] to-[#084594]/70 p-10 w-full md:w-3/4 h-screen flex flex-col justify-center items-start">
+            <div className="bg-gradient-to-br from-[#084594] to-[#084594]/90 p-10 w-full md:w-2/4 h-screen flex flex-col justify-center items-start">
 
                 <div className="text-white p-4 font-bold rounded-sm text-6xl md:text-[80px] text-[#FFD32D]">
                     We do,
@@ -34,18 +34,22 @@ export default function Page2() {
                         }}
                     />
                 </div>
+                
 
+                <div className="mt-36 text-3xl ml-2">
+                    See Our code in action →	
+                </div>
 
             </div>
 
-            <div className="w-0 md:w-1/4 h-screen backdrop-blur-md backdrop-invert">
+            <div className="w-0 md:w-2/4 bg-transparent h-screen backdrop-blur-xl backdrop-invert">
                 <Iframe url="https://hassanhamza930.github.io/"
-                    position="absolute"
-                    width="100%"
-                    id="myId"
-                    className="myClassname"
-                    height="100%"
-                    styles={{ height: "25px" }} />
+                    // position="absolute"
+                    width="50%"
+                    className="bg-transparent "
+                    height="100%"/>
+
+                
             </div>
 
 
