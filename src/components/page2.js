@@ -1,6 +1,7 @@
 import Typewriter from "typewriter-effect";
 import FadeIn from "react-fade-in/lib/FadeIn";
 import Iframe from 'react-iframe'
+import {motion} from "framer-motion";
 
 
 const texts = ['Mobile Apps', 'Web Apps', "UI / UX", "Flutter", "Firebase", "React Js"];
@@ -42,15 +43,21 @@ export default function Page2() {
 
             </div>
 
-            <div className="w-0 md:w-2/4 bg-transparent h-screen backdrop-blur-xl backdrop-invert">
+            <motion.div className="flex flex-row w-0 md:w-2/4 bg-transparent h-screen backdrop-blur-xl backdrop-invert">
+                
                 <Iframe url="https://hassanhamza930.github.io/"
                     // position="absolute"
                     width="50%"
                     className="bg-transparent "
                     height="100%"/>
 
+                    <div className="w-2/4 bg-transparent flex justify-center items-center">
+                    </div>
+
+
+            
                 
-            </div>
+            </motion.div>
 
 
         </div>
