@@ -61,15 +61,21 @@ export default function Page1() {
 
                     <div className="flex flex-col bg-[#084594] p-4 rounded-sm">
 
-                        <div className="text-4xl md:text-6xl  font-bold text-left text-white p-1 rounded">
+                        <div className="text-6xl font-bold text-left text-white p-1 rounded">
                             <FadeIn transitionDuration={1000}>
-                                :Dev
+                                Hello!
                             </FadeIn>
                         </div>
 
-                        <div className="text-xl md:text-2xl font-normal text-left text-white p-1 rounded">
+                        <div className="text-4xl font-normal text-left text-white p-1 rounded">
+                            <FadeIn transitionDuration={1000}>
+                                I'm Hamza
+                            </FadeIn>
+                        </div>
+
+                        <div className="text-xl font-normal text-left text-white p-1 rounded">
                             <FadeIn transitionDuration={1500}>
-                                Your technology solutions partner.
+                                I convert dreams into apps.
                             </FadeIn>
                         </div>
 
@@ -103,7 +109,7 @@ export default function Page1() {
 
                 <div className="flex flex-col mt-10 ml-1 justify-end items-start">
                     <div className="text-5xl italic text-[#084594]">
-                        We build
+                        I build
                     </div>
 
                     <AnimatePresence>

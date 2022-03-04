@@ -19,7 +19,7 @@ export default function Page2() {
             <div className="bg-gradient-to-br from-[#084594] to-[#084594]/90 p-10 w-full md:w-2/4 h-screen flex flex-col justify-center items-start">
 
                 <div className="text-white p-4 font-bold rounded-sm text-6xl md:text-[80px] text-[#FFD32D]">
-                    We do,
+                    I do,
                 </div>
 
 
@@ -38,7 +38,7 @@ export default function Page2() {
                 
 
                 <div className="mt-36 text-3xl ml-2">
-                    See Our code in action →	
+                    See My Code in Action →	
                 </div>
 
             </div>

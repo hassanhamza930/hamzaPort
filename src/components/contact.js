@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from "react-router-dom";
 
 export default function Contact(){
 
@@ -15,16 +16,20 @@ export default function Contact(){
         <div className="p-10 text-center bg-white rounded-md h-3/4 w-3/4 flex justify-center items-center text-4xl font-bold flex-col">
             
             <div className="text-cyan-900">
-                We have recieved your message.
+                I have recieved your message.
             </div>
             
             <div className="text-2xl font-normal text-cyan-900 italic mt-5 ">
-                Someone from our team will be in touch with you shortly.
+                I will be in touch with you shortly.
             </div>
 
-            <button onClick={()=>{setShow(!show)}} className="bg-rose-900 text-white p-3 w-24 shadow-xl text-3xl rounded mt-10">
-                Ok.
+            <Link to="/">
+            <button onClick={()=>{
+                setShow(!show);
+                }} className="bg-rose-900 text-white p-3 w-24 shadow-xl text-3xl rounded mt-10">
+                Ok
             </button>
+            </Link>
             
 
 
@@ -56,7 +61,7 @@ export default function Contact(){
                     Together.
                     </div>
 
-                    <div className="mt-10 text-sm md:text-xl font-normal italic text-cyan-900">We will get back to you, within hours.</div>
+                    <div className="mt-10 text-sm md:text-xl font-normal italic text-cyan-900">I will get back to you,<br></br> within hours.</div>
 
                 </div>
 

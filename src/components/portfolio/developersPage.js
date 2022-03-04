@@ -9,7 +9,7 @@ export default function developersPage(){
                 
                 <div className="text-cyan-900 text-6xl font-bold">Our Team</div>
                 <div className="w-full pl-14 pr-14 text-cyan-900 text-xl italic">
-                    Our Team consists of members with several years of experience in mobile and web technologies. We are always experimenting with cutting edge technology to provide the best quality of content to our clients.
+                    Our Team consists of members with several years of experience in mobile and web technologies. We are always experimenting with cutting edge technology to provide the best quality code output to our clients.
                 </div>
 
                 <div className="flex flex-row justify-evenly w-full"> 
@@ -19,7 +19,7 @@ export default function developersPage(){
                     </FadeIn>
 
                     <FadeIn transitionDuration={1700}>
-                        <Person name="Hamza Hassan" img="https://media-exp1.licdn.com/dms/image/C4D03AQFCL1xf47OS4g/profile-displayphoto-shrink_800_800/0/1605240476856?e=1646265600&v=beta&t=1kAuixXAcwXwCKA6Bgg2saNW9JbxDoVtyvGZrA3glhw" info1="Web App Developer," info2="UI/UX Designer" />
+                        <Person name="Hamza Hassan" img="https://media-exp1.licdn.com/dms/image/C4D03AQFCL1xf47OS4g/profile-displayphoto-shrink_800_800/0/1605240476856?e=1646265600&v=beta&t=1kAuixXAcwXwCKA6Bgg2saNW9JbxDoVtyvGZrA3glhw" info1="Mobile App Developer," info2="Web Designer" />
                     </FadeIn>
 
 
