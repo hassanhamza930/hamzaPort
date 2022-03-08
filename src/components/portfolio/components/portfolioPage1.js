@@ -16,23 +16,23 @@ export default function PortfolioPage1() {
 
                     <div className="text-3xl font-bold mt-12 text-[#FFD32D] ">Phase 1: Brainstorming and meetings</div>
 
-                    <img className="mt-5 mb-5 w-full" src="/wireframe.png" />
+                    <img className="mt-5 mb-5 w-full" src="/static/wireframe.png" />
                     Our team began by drawing out a basic template of how the eventual data would look like. This involved drawing <b className="text-[#FFD32D]">Entity Relation Diagrams</b> to figure out all possible interactions between different entities in the app product to make sure the rest of the development would go smoothly.
-                    <img className="mt-5 mb-5 w-full" src="/trello.png" />
+                    <img className="mt-5 mb-5 w-full" src="/static/trello.png" />
                     We setup a <b className="text-[#FFD32D]">Trello Board</b> and shared it with the client so clear goals could be setup. This way there is live accountability of the progress of the app while maintaining a sense of direction.
 
 
 
                     <div className="text-3xl font-bold mt-12 text-[#FFD32D] ">Phase 2: UI/UX</div>
                     <div className="w-full flex flex-col md:flex-row gap-2">
-                        <img className="w-full md:w-2/4 h-full mt-5 mb-5" src="/ui2.png" />
-                        <img className="w-full md:w-2/4 h-full mt-5 mb-5" src="/ui3.png" />
+                        <img className="w-full md:w-2/4 h-full mt-5 mb-5" src="/static/ui2.png" />
+                        <img className="w-full md:w-2/4 h-full mt-5 mb-5" src="/static/ui3.png" />
                     </div>
                     Our client was in direct communication with us on a daily basis. Luckily, he happened to know quite a bit about<b className="text-[#FFD32D]"> UI/UX design.</b> This essentially cut our development time by atleast a few weeks, as we were able to directly observe and experience what our client asked of us.
 
 
                     <div className="text-3xl font-bold mt-12 text-[#FFD32D] ">Phase 3: App Development</div>
-                    <img className="mt-5 mb-5 w-full " src="/appDev1.png" />
+                    <img className="mt-5 mb-5 w-full " src="/static/appDev1.png" />
                     App development started with us selecting the tech stack, Since our client required the app to run on all platforms and was heavy on animations and rapid developement. We decided on using <b className="text-[#FFD32D]">Flutter</b> as our front end framework for mobile development along with <b className="text-[#FFD32D]">React JS</b> for the development of the admin panel.
                     As for the backend, we decided to use google's <b className="text-[#FFD32D]">Firebase</b> as our database of choice.
 
@@ -70,9 +70,9 @@ export default function PortfolioPage1() {
 
 
                     <div className="text-6xl font-bold mt-24 text-[#FFD32D] mb-5 ">6 Months In:</div>
-                    <img className="mt-5 mb-5 w-full " src="/adminPanel1.png" />
+                    <img className="mt-5 mb-5 w-full " src="/static/adminPanel1.png" />
                     The client was reasonably satisfied with the status of the app and deployments to the app stores began simulateneously with the development of the <b className="text-[#FFD32D]">Web Admin Panel.</b>
-                    <img className="mt-5 mb-5 w-full " src="/adminPanel3.png" />
+                    <img className="mt-5 mb-5 w-full " src="/static/adminPanel3.png" />
                     The admin panel provided detailed statistics on the performance of the app along with usage data. All of this was achieved by complex calculations and algorithms of the admin panel. This not only provided business insights for the app owners but also provided actionable data which we used to reiterate on the features of the app.
 
 
