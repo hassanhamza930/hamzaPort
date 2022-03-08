@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import FadeIn from 'react-fade-in';
 import { Link } from "react-router-dom";
 import { useSpring, animated, useTransition } from 'react-spring'
+import {FaInstagramSquare,FaGithubSquare,FaTwitterSquare} from "react-icons/fa";
+import {SiFiverr} from "react-icons/si";
 
 var texts = [
     "Mobile",
@@ -53,7 +55,7 @@ export default function Page1() {
 
 
     return (
-        <div className="h-screen w-full bg-[#FFD32D] bg-cover flex justify-start items-center p-12">
+        <div className="h-screen w-full bg-[#FFD32D] flex flex-col md:flex-row justify-between items-center p-12">
 
             <div className="flex flex-col justify-center items-start">
 
@@ -136,6 +138,25 @@ export default function Page1() {
                 </div>
 
 
+            </div>
+
+            <div className="h-full w-2/4 flex justify-center items-center">
+
+                <div className="flex flex-row gap-4 md:gap-10 justify-evenly items-center">
+
+                    <a href=
+                    "https://twitter.com/Hamza44965848" 
+                    className="hover:scale-105"><FaTwitterSquare color="black" size={70}/></a>
+                    <a href=
+                    "https://github.com/hassanhamza930" 
+                    className="hover:scale-105"><FaGithubSquare color="black" size={70}/></a>
+                    <a href=
+                    "https://www.fiverr.com/hassanhamza930" 
+                    className="hover:scale-105"><SiFiverr color="black" size={130}/></a>
+                    
+                
+
+                </div>
             </div>
 
         </div>

@@ -37,7 +37,7 @@ export default function Page2() {
                 </div>
                 
 
-                <div className="mt-36 text-3xl ml-2">
+                <div className="mt-36 text-2xl ml-2">
                     See My Code in Action →	
                 </div>
 

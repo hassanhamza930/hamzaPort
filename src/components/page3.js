@@ -12,7 +12,7 @@ export default function Page3(){
                 Portfolio
             </div>
 
-            <Link to="/portfolio">
+            <Link to="/portfolio#main">
                 <button className="border-2 border-black hover:scale-105 text-xl italic p-3 bg-white rounded-sm text-gray-900">
                     Get to Know Me.
                 </button>

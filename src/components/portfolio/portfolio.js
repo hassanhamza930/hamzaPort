@@ -1,8 +1,17 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import PortfolioPage1 from "./components/portfolioPage1";
 import DevelopersPage from "./developersPage";
 
 export default function Portfolio(){
+
+    useEffect(() => {
+        
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0
+
+    }, []);
+
     return(
         <div style={{ fontFamily: "Roboto Mono" }} className="h-full w-full bg-white flex flex-col">
             
@@ -21,7 +30,7 @@ export default function Portfolio(){
 
                     <Link to="/contact">
                     <button
-                        className=" text-4xl mt-10 p-4 rounded-sm bg-white text-red-900 hover:scale-105 ">
+                        className=" text-2xl mt-10 p-4 rounded-sm bg-white text-red-900 hover:scale-105 ">
                         Let's Talk ►
                     </button>
                     </Link>
