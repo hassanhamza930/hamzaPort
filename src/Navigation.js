@@ -5,7 +5,7 @@ import Page3 from "./components/page3";
 
 export default function Navigation() {
     return (
-        <div style={{ fontFamily: "Roboto Mono" }} className="bg-red-500 h-full text-white flex flex-col justify-center items-center ">
+        <div style={{ fontFamily: "Roboto Mono" }} className="bg-red-500 h-full w-full text-white flex flex-col justify-center items-center ">
             <Page1 />
             <Page2 />
             <Page3 />

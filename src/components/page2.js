@@ -14,7 +14,7 @@ export default function Page2() {
 
 
     return (
-        <div className="flex flex-row w-full h-screen bg-services bg-center bg-cover">
+        <div className="flex flex-col md:flex-row w-full h-full md:h-screen bg-services bg-center bg-cover">
 
             <div className="bg-gradient-to-br from-[#084594] to-[#084594]/90 p-10 w-full md:w-2/4 h-screen flex flex-col justify-center items-start">
 
@@ -43,15 +43,14 @@ export default function Page2() {
 
             </div>
 
-            <motion.div className="flex flex-row w-0 md:w-2/4 bg-transparent h-screen backdrop-blur-xl backdrop-invert">
+            <motion.div className="flex flex-row w-full md:w-2/4 bg-transparent h-screen backdrop-blur-xl backdrop-invert">
                 
                 <Iframe url="https://hassanhamza930.github.io/"
                     // position="absolute"
-                    width="50%"
-                    className="bg-transparent "
-                    height="100%"/>
+                    className="w-full h-full md:w-2/4 bg-transparent "
+                    />
 
-                    <div className="w-2/4 bg-transparent flex justify-center items-center p-10">
+                    <div className="hidden md:flex w-0 md:w-2/4 bg-transparent flex justify-center items-center p-10">
                         <div>
                             The app you see on the screen is a live preview of our app written in futter and compiled for the web.
                         </div>
