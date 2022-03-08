@@ -5,7 +5,7 @@ export default function developersPage(){
     return(
         <div style={{ fontFamily: "Roboto Mono" }} className="bg-blue-900 h-full w-full flex flex-col md:flex-row">
 
-            <div className="bg-white w-full md:w-2/4 h-screen  md:h-screen gap-5 flex justify-evenly items-center flex-col">
+            <div className="bg-white w-full md:w-3/5 h-screen  md:h-screen gap-5 flex justify-evenly items-center flex-col">
                 
                 <div className="text-cyan-900 text-6xl font-bold">Our Team</div>
                 <div className="w-full pl-14 pr-14 text-cyan-900 text-xl italic">
@@ -27,10 +27,10 @@ export default function developersPage(){
 
             </div>
 
-            <div className="flex flex-col justify-evenly items-center bg-gradient-to-br from-gray-800 to-cyan-900 invert w-full md:w-2/4 h-screen p-10">
+            <div className="flex flex-col justify-evenly items-center bg-gradient-to-br from-gray-800 to-cyan-900 invert w-full md:w-2/5 h-screen p-10">
 
                 <div className="text-white text-center text-xl font-normal italic">
-                    " Working with these guys was the best experience i've had as a client in all my years of outsourcing." <br></br> - Daniels ( LetsVibe ) 
+                    "Working with these guys was the best experience i've had as a client in all my years of outsourcing." <br></br> - Daniels (LetsVibe) 
                 </div>
 
                 <div className="animate-spin bg-white h-12 w-12">

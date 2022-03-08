@@ -51,13 +51,15 @@ export default function Page2() {
                     className="bg-transparent "
                     height="100%"/>
 
-                    <div className="w-2/4 bg-transparent flex justify-center items-center">
+                    <div className="w-2/4 bg-transparent flex justify-center items-center p-10">
+                        <div>
+                            The app you see on the screen is a live preview of our app written in futter and compiled for the web.
+                        </div>
                     </div>
 
-
-            
                 
             </motion.div>
+        
 
 
         </div>

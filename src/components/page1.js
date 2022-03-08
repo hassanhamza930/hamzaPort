@@ -75,7 +75,7 @@ export default function Page1() {
 
                         <div className="text-xl font-normal text-left text-white p-1 rounded">
                             <FadeIn transitionDuration={1500}>
-                                I convert dreams into apps.
+                                I convert ideas into apps.
                             </FadeIn>
                         </div>
 
