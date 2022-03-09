@@ -55,7 +55,7 @@ export default function Page1() {
 
 
     return (
-        <div className="h-screen w-full bg-[#FFD32D] flex flex-col md:flex-row justify-between items-center p-12">
+        <div className="h-full md:h-screen w-full bg-[#FFD32D] flex flex-col md:flex-row justify-between items-center p-12">
 
             <div className="flex flex-col justify-center items-start">
 
@@ -140,7 +140,12 @@ export default function Page1() {
 
             </div>
 
-            <div className="h-full w-2/4 flex justify-center items-center">
+            <div className="h-full w-2/4 flex flex-col justify-center items-center">
+
+                <div style={{backgroundImage: 'url("https://avatars.githubusercontent.com/u/45227042?v=4")' }} className="h-72 w-72 md:h-96 md:w-96 bg-center bg-contain md:mt-0 mt-12">
+                </div>
+
+
 
                 <div className="flex flex-row gap-4 md:gap-10 justify-evenly items-center">
 
